@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>3.함수</h1>
+        <h4>컴사모 동아리<br>31302 권민우</h4>
+    </div>
+    <div class="grid">
+        <div class="index">
+            <br>
+            <a href="index.html" target="_self" class="a">0. 머릿말</a><br>
+            <a href="1.html" target="_self" class="a">1. 파이썬 시작하기</a><br>
+            <a href="1.1.html" target="_self" class="a" style="font-size: 14px; padding-left: 14px;">1.1 변수</a><br>
+            <a href="2.html" target="_self" class="a">2. 반복문과 조언문</a>
+            <a href="3.html" target="_self" class="a">3. 함수</a><br>
+            <a href="4.html" target="_self" class="a">4. 데이터 타입</a><br>
+            <a href="5.html" target="_self" class="a">5. 모듈</a>
+        </div>
+        <div class="text">
+            <h3>함수</h3>
+            <p>지금까지는 코드를 하나 하나 작성을 했어야 했습니다.</p>
+            <p>그로 인해 지금까지 반복되는 코드를 짜려면 똑같은 코드를 계속 복사하는 불편한 과정을 거쳐야했죠.</p>
+            <p>그러나 <span style="font-weight: bold;">함수</span>를 사용하면 이런 과정을 거치지 않아도 됩니다.</p>
+            <p>지금부터 예시를 통해 알아보도록 하죠</p>
+            <p class="python">>>> if a > b:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    style="font-weight: lighter;"># 만약 a가 b보다 크면</span><br>
+                ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                print('a')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: lighter;"># 'a'를
+                    출력한다.</span><br>...
+                else:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    style="font-weight: lighter;"># 그렇지 않으면</span><br>
+                ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                print('b')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: lighter;"># 'b'를
+                    출력한다.</span><br>
+                ... </p>
+            <p>이것은 저희가 조건문을 배울 때 사용했던 예시문입니다.</p>
+            <p>a, b에 정수를 넣고 그에 따라 크기가 큰 수를 나타냈었죠.</p>
+            <p>그런데 만약 a, b를 여러개 넣고 싶다면?</p>
+            <p>아니면 a, b를 비교하고 더 큰값을 c와 비교하고 싶다면?</p>
+            <p>아마 많은 양의 조건문을 써야만 할 것입니다.</p>
+            <p>함수를 이용하면 금방 해결될텐데 말이죠.</p>
+            <p class="python">>>>def cal():</p>
+            <p>이렇게 적음으로써 cal()이라는 새로운 함수를 정의한다고 나타냅니다</p>
+            <p>이제 함수의 내용을 나타내야겠죠?</p>
+            <p class="python">>>>def cal():<br>
+                ... if a >
+                b:<br>
+                ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                print('a')
+
+                <br>...
+                else:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                print('b')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>이제 사용 예시를 들어드리죠</p>
+            <p class="python">>>>a = int(input('a 입력'))<br>
+                >>>b = int(input('b 입력'))
+                <br><br>
+
+                ... if a >
+                b:<br>
+                ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                print('a')
+
+                <br>...
+                else:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                print('b')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+                >>>cal()
+            </p>
+            <p>이렇게 하면 어떻게 나오나요?</p>
+            <img src="py4.png" width="100px"><br>
+            <p>이렇게 입력창이 나오고</p>
+            <img src="py5.png" width="100px"><br>
+            <p>이렇게 b까지 입력을 하면</p>
+            <img src="py6.png" width="100px">
+            <p>더 큰 15를 가진 b를 출력해줍니다.</p>
+            <p>이로써 함수가 잘 작동함을 알 수 있겠죠?</p>
+            <p>매개변수를 통한 함수를 제작할 수도 있지만 이번 시간에는 여기까지만 배워보도록 하겠습니다.</p>
+            <p>다음 장에서 봅시다.</p>
+
+
+        </div>
+
+</body>
+
+</html>

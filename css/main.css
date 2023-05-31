@@ -1,0 +1,38 @@
+.title{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 110px;
+}
+
+.a{
+    color:gray;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration-line: none;
+    
+}
+
+.index{
+    border-right: 1px solid black;
+    margin-left: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.text{
+    margin: 30px;
+}
+
+.python{
+    display: block;
+    background-color: rgb(240, 239, 239);
+    width: 60%;
+    padding: 1em;
+    font-size: 15px;
+}
